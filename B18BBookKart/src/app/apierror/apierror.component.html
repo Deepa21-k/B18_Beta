@@ -1,1 +1,19 @@
-
+<div class=" row heading rounded-2 p-2">
+    <h5><i class="fa fa-book ms-3" aria-hidden="true">BooksKart</i>
+    <i class="fa fa-github  ms-4 me-3" style="float:right" aria-hidden="true">Github</i>
+    <i class= " fa fa-swagger ms-4" style="float:right" aria-hidden="true">Swagger</i>
+    <i class="fa fa-shopping-cart  ms-4" style="float:right"  aria-hidden="true"></i>
+   <i class="fa fa-heart ms-4" style="float:right" aria-hidden="true"></i>
+    <input type="search" class="ms-5 w-25" placeholder="Search Books" aria-label="Search" /></h5>
+</div>
+<div class="row m-3">
+    <div class="col-3">
+        <img  class="img m-3"src="assets/image1.jfif">
+        <button class="btn  ms-4  p-2 w-75" (click)="getBooks()">Get Books</button><br>
+        <button class="btn ms-4  p-2 w-75" (click)="addWishlist()">Get BookCategory</button><br>
+        <button class="btn  ms-4 p-2 w-75" (click)="postBooks()">Post Books</button><br>
+    </div>
+    <div class="col">
+        {{bookdetails | json}}
+        {{category | json}}
+    </div>

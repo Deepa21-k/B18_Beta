@@ -1,0 +1,16 @@
+button.active{
+    background-color: rgb(16, 33, 59);
+}
+button{
+    background-color: azure;
+    border-bottom-color: rgb(179, 170, 170);
+}
+button:hover{
+    background-color: rgb(156, 148, 148);
+}
+.heading{
+    color:aliceblue;
+    background-color: hsla(226, 83%, 47%, 0.767);
+    width:100%;
+    display:inline-flex
+}
